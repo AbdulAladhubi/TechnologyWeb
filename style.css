@@ -1,0 +1,1159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;    
+
+}
+
+#MainHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/ungo.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+/*    background-image: url(images/ungo.jpg);*/
+}
+
+#nav {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    position: relative;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #004a43;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+#nav li a:hover {
+    background-color: #004a43;
+    color: #fff;
+}
+
+#nav li.active a {
+    background-color: #004a43;
+    color: #fff;
+}
+
+#logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+#main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+#title h3 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+#slogan {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+}
+
+#slogan p {
+    color: darkgray;
+}
+
+#button {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*
+.button p{
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+*/
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<End of index.html css>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+footer p{
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 5%;
+}
+footer{
+    padding-top: 3%;
+    height: 300px;
+    background-color: #004a43;
+}
+#footerLogo{
+    float: left;
+    width: 25%;
+}
+#footerLogo h3{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+#footerLogo p{
+    text-align: center;
+    margin-top: 5%;
+}
+#footerText1{
+    float: left;
+    width: 25%;
+     text-align: center;
+}
+.footerP{
+    text-align: center;
+    padding-bottom: 8%;
+    font-weight: bold;
+     font-size: 28px;
+    margin-bottom: 5%;
+}
+#footerText2{
+    float: left;
+    width: 25%;
+     text-align: center;
+}
+#footerText3{
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+.footerList{
+    text-decoration: none;
+}
+.footerList li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 4%;
+    text-align: center;
+}
+.footerList a{
+    text-decoration: none;
+    color: #fff;
+}
+.footerList a:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+#trustcomp {
+
+    min-height: 199px;
+}
+
+#trustcomp h3 {
+    color: #004a43;
+    padding-top: 2%;
+    font-size: 38px;
+    text-align: center;
+
+}
+
+
+#comapiensLogo {
+    text-align: center;
+}
+
+#comapiensLogo li {
+    display: inline-block;
+    margin: 2%;
+
+
+}
+
+#comapiensLogo img {
+    height: 53px;
+    width: auto;
+
+}
+
+
+
+#aipanner{
+    min-height: 500px;
+    padding-left: 24px;
+    background-color:#f1f6f6;
+    width: auto;
+}
+
+#aiMainSec h3{
+   color: #004a43;
+    padding-top:2%;
+    font-size: 60px;
+    margin-bottom: 5%;
+margin-left: 3%;
+}
+
+#aiMainSec p{
+   color: #004a43;
+margin-left: 3%;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+#aiMainSec{
+    float: left;
+    width: 45%;
+}
+#aiMainSec a{
+    margin-left: 10%;
+    color: #004a43;
+    background-color: orange;
+    text-decoration: none;
+    padding: 13px 70px;
+    width: 20px;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 21px;
+    text-align: center;
+}
+#aiMainSec a:hover{
+    margin-left: 10%;
+    color: #fff;
+    transition: 0.6s ease;
+    background-color: #004a43;
+    text-decoration: none;
+    padding: 13px 70px;
+    width: 20px;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 21px;
+    text-align: center;
+}
+
+#aipanner img{
+    height: 400px;
+    width: auto;
+    float: right;
+    margin-top: 2%;
+}
+
+#partner{
+  height: 500px;
+    border-bottom: 2px solid black;
+    background-color: #004a43;
+    padding: 4%;
+    margin-top: 1%;
+    text-align: center;
+}
+#partner h3{
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    line-height: 42px; 
+   
+}
+
+
+#partner img{
+    position: relative;
+    width: 100%;
+    max-width: 21%;;
+  margin-top: 5%;
+    border-radius: 18px;
+    float: left;
+}
+
+
+#partner h2{
+    color: #fff;
+    float: right;
+    font-size: 29px;
+    margin-right: 19%;
+    margin-top: 4%;
+}
+
+#partner p{
+     color: #fff;
+    float: right;
+    margin-right: 19%;
+    margin-top: 4%;
+    font-size: 21px;
+    margin-bottom: 3%;
+}
+
+#footerText{
+    text-align: center;
+    background-color: black;
+    bottom: 0;
+    position: relative;
+    left: 0;
+    height: 60px;
+    width: 100%;
+}
+#footerText{
+    color: white;
+}
+#page2paragraph{
+    color: white;
+    display: inline;
+    font-family:sans-serif;
+}
+
+#boxesUL {
+   margin-bottom: 5%; 
+    
+}
+#boxesUL li{
+     margin-top: 2%;
+     display: inline-block;
+    margin-left: 2%;
+    width: 31%;
+    text-align: center;
+}
+#boxesUL li img{
+
+   width: 70px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#boxesUL li h3{
+    color: #fff;
+    font-size: 30px;
+
+    
+}
+#boxesUL li p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5%;
+}
+#boxesUL section{
+    background-color: #004a43;
+    height: 300px;
+    border-radius: 6%;
+   box-shadow: 15px 10px black;
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<End of index.html css>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<Start of Programming.html css >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#progHeader{
+     background-color: #f1f6f6;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#nav2 {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+#nav2 li {
+    display: inline-block;
+}
+
+#nav2 li a {
+    text-decoration: none;
+    color: #004a43;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+#nav2 li a:hover {
+    background-color: #004a43;
+    color: #fff;
+}
+
+#nav2 li.active a {
+    background-color: #004a43;
+    color: #fff;
+}
+
+#logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+#main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#title2 {
+    position: absolute;
+    width: 49%;
+    top: 40%;
+    left: 30%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+
+#title2 h1 {
+    color: #004a43;
+    font-size: 70px;
+}
+
+#title2 h3 {
+    color: #004a43;
+    text-align: center;
+}
+
+#slogan2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+}
+
+#slogan2 p {
+    color: #004a43;
+}
+
+#button2 {
+    position: absolute;
+    top: 57%;
+    left: 30%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+#proImage{
+    float: left;
+    
+}
+#proImage img{
+    height: 550px;
+padding-right: 5%;
+  padding-top: 40%;
+padding-left: 110%;
+
+}
+
+.btn {
+
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    color: #004a43;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #004a43;
+    color: #000;
+}
+#signup-btn {
+    top: 40px;
+    right: 90px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+
+
+#progTitle{
+    top:80%;
+ 
+    float: left;
+   margin-top: 15%;
+}
+#progTitle h1{
+    color: #004a43;
+    font-size: 60px;
+
+    padding-left: 1%;
+}
+#progTitle p{
+    color: #004a43;
+      padding-top: 2%;
+    font-size:18px;
+    padding-bottom: 4%;
+
+}
+#progTitle a{
+   
+    color: #004a43;
+    background-color: orange;
+    text-decoration: none;
+    padding: 13px 70px;
+    width: 20px;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 21px;
+    text-align: center;
+}
+
+#progImgMain img{
+    height: 500px;
+   float: right;
+    padding-top: 5%;
+        
+}
+
+#decisions{
+    width: 100%;
+    height: 400px;
+
+}
+#decisions h2{
+    text-align: center;
+    color: #004a43;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 43px;
+}
+#decisions img{
+    width: 30%;
+    
+}
+
+#section1{
+    float: left;
+    width: 30%;
+    height: 240px;
+    margin-top: 1%;
+    text-align: center;
+    
+}  
+
+#section2{
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+    position: relative;
+     text-align: center;
+}  
+#section3{
+    float: right;
+    width: 30%;
+     text-align: center;
+    
+} 
+#section1 img{
+    width: 240px;
+}
+#section2 img{
+    width: 90px;
+}
+
+#section3 img{
+    width: 100px;
+}
+
+#decisions {
+  text-align: center;
+}
+#decisions h3{
+    color: #004a43;
+    margin: 1%;
+    font-size: 18px;
+    line-height: 25px;
+}
+#decisions p{
+    color: #004a43;
+    margin: 1%;
+     font-size: 16px;
+    line-height: 24px;
+}
+#progInfo{
+    background-color: #004a43;
+
+  display: inline-block;
+    width: 100%;
+}
+#robInfo{
+    background-color: black;;
+
+  display: inline-block;
+    width: 100%;
+    height: 780px;
+margin-bottom: 0px;
+   
+}
+#infoImage{
+   height: 800px;
+    width: 30%;
+   float: left;
+   
+
+}
+#infoRob{
+   height: 800px;
+    width: 30%;
+   float: left;
+   
+
+}
+#infoImage img{
+float: left;
+    padding-top: 19%;
+    padding-left: 4%;
+   max-width: 400px;
+    border-radius: 18px;
+    
+    
+}
+#proInfoH1{
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    height: 200px;
+ 
+ 
+   
+}
+#robInfoH1{
+    float: right;
+    width: 30%;
+    margin-top: 5%;
+    margin-right: 5%;
+    height: 200px;
+ 
+ 
+   
+}
+#aside2{
+    float: right;
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 5%;
+    height: 200px;
+ 
+ 
+   
+}
+#proInfoH2{
+    float: right;
+    width: 30%;
+    margin-top: 5%;
+    margin-right: 2%;
+    height: 200px;
+    
+
+}
+#proInfoH1 h2{
+    color: #fff;
+     font-size: 40px;
+    margin-bottom: 19px;
+    text-align: center;
+    
+    
+}
+#proInfoH2 h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 19px;
+    text-align: center;
+    
+}
+#proInfoH1 p{
+    color: #fff;
+    font-size: 20px;
+}
+#proInfoH2 p{
+    color: #fff;
+    font-size: 20px;
+}
+#news{
+      column-count: 2;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+}
+#progTable{
+    float: left;
+    margin-left: 2%;
+}
+#tableInfoTitle{
+    float: right;
+   
+}
+#tableInfo{
+    height: 500px;
+}
+#tableRobInfo{
+    height: 726px;
+}
+#tableInfoTitle h2{
+    color:#004a43;
+    margin-right: 4%;;
+    margin-top: 12%;
+    font-size: 50px;
+}
+#styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+#styled-table thead tr {
+    background-color: #004a43;
+    color: #ffffff;
+    text-align: left;
+}
+#styled-table th,
+#styled-table td {
+    padding: 12px 15px;
+}
+#styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+#progForm{
+    padding-top: 2%;
+    height: 1000px;
+    width: auto;
+     background-color: #f1f6f6;
+   
+}
+#progForm_{
+    float: left;
+    padding-top: 0;
+    width: 40%;
+  margin-left: 3%;
+    height: 600px;
+}
+#progForm_ h2{
+    color: #004a43;
+    padding-top: 4%;
+    font-size: 40px;
+}
+#progForm p{
+    font-size: 18px;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+input[type=text] {
+  width: 100%;
+    font-size: 29px;
+  padding: 42px 20px;
+  margin: 8px 0;
+    padding-bottom: 5%;
+    
+  box-sizing: border-box;
+  border: 1px solid  #004a43;
+  border-radius: 4px;
+}
+#progForm label{
+    font-size: 20pxpx;
+   
+}
+#progForm_ a{
+    font-size: 19px;
+    font-weight: 500;
+    padding: 21px 51px;
+    border-radius: 12px;
+    background-color: rgb(255, 173, 61);
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 14%;
+   
+}
+#formImage{
+    float: left;
+   width: 40%;
+    align-items: center;
+}
+#formImage img{
+     width: 100%;
+  text-align: center;
+    margin-left: 29%;
+
+        border-radius: 18px;
+}
+#advice {
+    background-color:#004a43;
+    height: 350px;
+background-image: url(images/collage.png);
+    background-size: cover;
+  
+}
+#advice h2{
+ color: #fff;
+    font-size: 40px;
+text-align: center;
+    padding-top: 3%;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+#advice a{
+    padding: 27px 60px;
+margin-left: 45%;
+    background-color: orange;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+   
+}
+/*<<<<<<<<<<<<<<<<<<<End of Programming.html css >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<<<<<<<<<<<Start of robotics.html css>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+#ourRobot {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin-top: 5%;
+   
+}
+
+#infoRob h2 {
+    color: #fff;
+    margin-top: 6%;
+    font-size: 40px;
+    text-align: center;
+    
+}
+#infoRob h4 {
+    color: #fff;
+    margin-top: 6%;
+    font-size: 28px;
+    text-align: center;
+    
+}
+#infoRob article {
+    color: gray;
+    font-size: 20px;
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 8%;
+    
+    
+}
+#infoRob a {
+    color: #fff;
+    font-size: 15px;
+    padding: 13px 23px;
+    margin-top: 6%;
+    margin-left: 37%;
+    text-align: center;
+    text-decoration: none;
+    background-color: grey;;
+    border-radius: 11px;
+    
+    
+}
+#infoRob a:hover {
+    color:grey ;
+    font-size: 15px;
+    padding: 13px 23px;
+    margin-top: 6%;
+    margin-left: 37%;
+    text-align: center;
+    text-decoration: none;
+    background-color:#fff;;
+    border-radius: 11px;
+    
+    
+}
+
+#infoRob{
+    margin-left: 3%;
+    margin-top: 9%;
+}
+
+#sophiaImage {
+    width: 60%;
+    margin-left: 4%;
+    float: left;
+}
+#sophiaImage img{
+    width: 60%;
+}
+
+#sophiaTitle {
+    float: left;
+   text-align: center;
+   margin-top: 8%;
+}
+
+#RobArticle {
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/fantasy.jpg);
+    background-size: cover;
+}
+
+#whatIsRobotics {
+    height:auto;
+text-align: center;
+    background-color: #004a43;
+  align-content: center;
+    width: 700px;
+    border-radius: 5px;
+    box-shadow: 10px 10px grey;
+    margin-left: 28%;
+    margin-bottom: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 3%;
+    
+}
+
+#roboticsOverview {
+   
+}
+
+#WhIsRob {
+    background-color: #ecfaff;
+    padding-top: 3%;
+    border-top: 2px solid grey;
+    border-radius: 4px;
+    margin-bottom: 5%;
+    
+}
+
+#robPar {
+    color: #fff;
+    padding: 20px;
+    font-size: 19px;
+}
+
+#robH3 {
+    color: #fff;
+    font-size: 20px;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<End of Robotics.html css>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<Start of AboutUs.html css>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#about {
+width:450px;
+  float: left;
+
+ 
+}
+
+.girls {
+    width: 350px;
+  height: 320px;
+    float: left;
+    background-color: aqua;
+    border-radius: 9px;
+}
+
+
+
+#Location {
+    text-align: center;
+}
+
+.active {
+    background-color: #004a43;
+    color: #fff;
+    
+}
+
+#partnerHeading1 {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+
+#partnerHeading2 {
+     width: 30%;
+    float: right;
+    margin-top: 7%;
+}
+
+#partnerImg {
+     
+   width: auto;
+    align-content: center;
+}
+
+#robotAiSection {
+    float: right;
+   width: 20%;
+}
+
+#submit {
+    font-size: 19px;
+    font-weight: 500;
+    padding: 21px 51px;
+    border-radius: 12px;
+    background-color: rgb(255, 173, 61);
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+     box-shadow: 2px 2px 2px #888888;
+    position: absolute;
+    border: none;
+    margin-top: 2%;
+    margin-left: 14%;
+   
+}
+#submit:hover {
+    background-color: darkgreen;
+    box-shadow: 5px 10px 8px cadetblue;
+    
+   
+}
+
+#whatwedo {
+    margin-top: 0px;
+    background-color: #004a43;
+    height: 250px;
+   width: auto;
+    text-align: center;
+    display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    color: #004a43;
+    border-radius: 35px;
+    background-color: white;
+    margin-left: 5%;
+}
+
+#AboutUsIcons {
+ 
+}
+#AboutUsIcons li{
+    margin-top: 2%;
+     display: inline-block;
+    margin-left: 2%;
+}
+#AboutUsIcons li img{
+    width: 80px;
+    margin-left: 1%;
+}
+#AboutUsIcons li h3{
+   margin-top: 5%;
+}
+
+#girl1{
+    background-image: url(images/girl1.jpg);
+    background-size: cover;
+}
+#girl1:hover{
+     background-image: url(images/girl1Nameee.png);
+   background-size: cover;
+    transition: 0.6s ease;
+    margin-top: 2%;
+    
+}
+
+#girl2{
+    background-image: url(images/girl4.jpg);
+   background-size: cover;
+    margin-top: 2%;
+}
+#girl2:hover{
+    background-image: url(images/girl4Nameee.png);
+   background-size: cover;
+    transition: 0.6s ease;
+    margin-top: 2%;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<End of aboutus.html css>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<<<<<<<<<<<Start of social media icons css>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+#icon-bar a:hover {
+  background-color: #000;
+}
+
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<End of social media icons css>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
